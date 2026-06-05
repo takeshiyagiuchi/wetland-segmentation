@@ -1,6 +1,8 @@
 # Wetland Segmentation Using Sentinel-2 Imagery and U-Net with Explainability Analysis
 
-### GEOG*6550 Environmental Modelling (Graduate Course Project)
+<p style="font-size: 1.4em;">GEOG*6550 Environmental Modelling (Graduate Course Project)</p>
+
+<br>
 
 ## Project Overview
 
@@ -75,7 +77,7 @@ For detailed methodology, experiments, and analysis:
 
 - [Wetland Segmentation Report](report/wetland-segmentation-report.md)
 
----
+<br>
 
 ## Repository Structure
 
@@ -88,7 +90,7 @@ wetland-segmentation/
 ├── src/              # Inference tools and GUI application
 ```
 
----
+<br>
 
 ## How to Run
 
@@ -100,8 +102,6 @@ This repository uses `uv` for Python environment management.
 
 If you plan to use `uv`, please install it first.  
 If you prefer other tools (e.g., `pip`, `conda`), refer to `pyproject.toml` for the required dependencies and versions.
-
----
 
 ### Steps
 
@@ -119,7 +119,7 @@ uv sync
 uv run python -m wetland_segmentation.ui.wl_segmentation_gui
 ```
 
----
+<br>
 
 ## Future Work
 
