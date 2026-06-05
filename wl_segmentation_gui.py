@@ -5,10 +5,10 @@ from tkinter import (
 
 import numpy as np
 
-from gradcam import GradCAM, show_gradcam, get_target_layer
-from model import set_device, load_model
+from src.gradcam import GradCAM, show_gradcam, get_target_layer
+from src.model import set_device, load_model
 
-MODEL_PATH = "model/unet_20260328_211654_epoch37_iou0.742.pth"
+MODEL_PATH = "checkpoints/unet_20260328_211654_epoch37_iou0.742.pth"
 
 
 class Window(Frame):
@@ -90,7 +90,7 @@ class Window(Frame):
         bottom_frame.grid_columnconfigure(1, weight=1)
         bottom_frame.grid(column=0, row=4, sticky=W + E)
 
-    # The method in which we run our model. This is called when we press the 'OK' button.
+    # The method in which we run our checkpoints. This is called when we press the 'OK' button.
     def run_segmentation(self):
 
         try:
