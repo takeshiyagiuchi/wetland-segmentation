@@ -76,6 +76,7 @@ The primary objective is to evaluate the effectiveness of deep learning on multi
 For detailed methodology, experiments, and analysis:
 
 - [Wetland Segmentation Report](report/wetland-segmentation-report.md)
+- [Wetland Segmentation Poster](report/wetland-segmentation-poster.pdf)
 
 <br>
 
